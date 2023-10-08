@@ -1,0 +1,28 @@
+/* Mobile */
+@media (min-width: 1024px) {
+  #header .mobile-menu-btn {
+    display: none;
+  }
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+  #header,
+  #header_admincp {
+    overflow: hidden;
+  }
+  #menu > li,
+  #menu_admincp {
+    display: block;
+  }
+  #header .search {
+    display: none;
+  }
+  ul.product_list li {
+    width: 99%;
+    border: 3px solid #333;
+    margin: 2px;
+    float: none;
+    border-color: rgb(66, 65, 65);
+  }
+}
